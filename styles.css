@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  background-color: #101214;
+  color: #7a7c80;
+}
+
+h2,
+.white {
+  color: #fff;
+}
+
+a {
+  color: #7a7c80;
+  text-decoration: none;
+}
+
+.section-1 {
+  padding-top: 21vh;
+  text-align: center;
+}
+
+.section-1 p {
+  font-size: 1.1rem;
+  padding-bottom: 0.7rem;
+  margin: 0;
+}
+
+.section-1 h2 {
+  font-size: 3rem;
+  margin-bottom: 0.7rem;
+}
+
+.section-1 a {
+  font-size: 1.5rem;
+  padding: 0.7rem;
+}
+
+.section-2 {
+  padding-top: 10vh;
+  width: 69%;
+}
+
+.section-2 h2 {
+  font-size: 1.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.section-2 p {
+  font-size: 1.1rem;
+  padding-bottom: 0.7rem;
+  margin: 0;
+}
+
+.section-2 a {
+  display: block;
+  padding: 0.35rem;
+  font-size: 1.2rem;
+  padding-left: 0;
+  width: 7rem;
+}
+
+.section-2 a:hover {
+  color: #fff;
+}
+
+.section-1 a:hover {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.white:hover {
+  position: relative;
+  padding-left: 10px;
+}
+
+@media (max-width: 780px) {
+  .grid-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-1 {
+    padding: 0;
+    padding-top: 5rem;
+  }
+  .section-2 {
+    padding: 0;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
+  }
+}
+
+.skill-icons a {
+  font-size: 3rem;
+}
+
+.skill-icons {
+  display: flex;
+}
